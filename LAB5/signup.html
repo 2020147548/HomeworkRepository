@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JONG-GANG MARKET SIGNUP</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1>JONG-GANG MARKET SIGNUP</h1>
+        <input type="button" value="메인페이지" onclick="location.href='index.html'">
+        <input type="button" value="로그인" onclick="location.href='login.html'">
+        <form method="get" action="https://www.jonggang.com">
+            <p>
+                <label>아이디: <input name="id" type = "text" size="25" autofocus required></label>
+            </p>
+            <p>
+                <label>비밀번호: <input name="password" type = "text" size="25" required></label>
+            </p>
+            <p>
+                <label>비밀번호 확인: <input name="password_check" type = "text" size="25" required></label>
+            </p>
+            <p>
+                <label>닉네임: <input name="nickname" type = "text" size="25"></label>
+            </p>
+            <p>
+                <label>전화번호: <input name="tel" type = "tel" pattern="\d{3}-\d{4}-\d{4}" placeholder="###-####-####"></label>
+            </p>
+            <p>
+                <label>나이: <input name="age" type="number" min="14" max="150" step="1" value="20"></label>
+            </p>
+            <p>
+                <input type="submit" class="button" value="Sign Up">
+            </p>
+        </form>
+    </body>
+</html>
